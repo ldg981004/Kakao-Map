@@ -1,0 +1,51 @@
+.board{
+    width: 100%;
+    height:100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+
+    
+}
+
+.mapboard{
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu {position:absolute;top:0;left:0;bottom:0;width:250px;margin:30px 0 30px 10px;padding:5px;overflow-y:auto;background:rgba(255, 255, 255, 0.7);z-index: 1;font-size:12px;border-radius: 10px;}
+.menu hr {display: block; height: 1px;border: 0; border-top: 2px solid #5F5F5F;margin:3px 0;}
+.menu.option{text-align: center;}
+.menu.option p {margin:10px 0;}  
+.menu.option button {margin-left:5px;}
+
+.place.li {list-style: none;}
+.place.item {position:relative;border-bottom:1px solid #888;overflow: hidden;cursor: pointer;min-height: 65px;}
+.place.item span {display: block;margin-top:4px;}
+.place.item h5, .place .item .info {text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.place.item .info{padding:10px 0 10px 55px;}
+.place.info.gray {color:#8a8a8a;}
+.place.info.jibun {padding-left:26px; font-size: 50px;}
+.place.info.tel {color:chartreuse;}
+.place.item .markerbg {float:left;position:absolute;width:36px; height:37px;margin:10px 0 0 10px; background-color: red;}
+.place.item .marker_1 {background-position: 0 -10px;}
+.place.item .marker_2 {background-position: 0 -56px;}
+.place.item .marker_3 {background-position: 0 -102px}
+.place.item .marker_4 {background-position: 0 -148px;}
+.place.item .marker_5 {background-position: 0 -194px;}
+.place.item .marker_6 {background-position: 0 -240px;}
+.place.item .marker_7 {background-position: 0 -286px;}
+.place.item .marker_8 {background-position: 0 -332px;}
+.place.item .marker_9 {background-position: 0 -378px;}
+.place.item .marker_10 {background-position: 0 -423px;}
+.place.item .marker_11 {background-position: 0 -470px;}
+.place.item .marker_12 {background-position: 0 -516px;}
+.place.item .marker_13 {background-position: 0 -562px;}
+.place.item .marker_14 {background-position: 0 -608px;}
+.place.item .marker_15 {background-position: 0 -654px;}
+
+.pag {margin:10px auto;text-align: center;}
+.pag a {display:inline-block;margin-right:10px;}
+.pag.on {font-weight: bold; cursor: default;color:#777;}
+
